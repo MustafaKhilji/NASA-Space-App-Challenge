@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding-bottom: 210px;
+  /* margin-bottom: 200px; */
+}
+
+/* hero bg */
+#heroImg {
+  height: 270px;
+  width: 100%vh;
+  border: 2px solid rgb(68, 68, 68);
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 1528px;
+  background: #161925;
+  color: white;
+  border-top: 2px solid rgb(68, 68, 68);
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+#cprTxt {
+  padding-right: 5px;
+}
+
+#cprDate {
+  padding-left: 5px;
+}
+
+/* main */
+.bakground {
+  height: 100%vh;
+  margin: 0;
+  width: 1528px;
+  padding-bottom: 50px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#topic {
+  margin-top: 5px;
+}
+
+.contBox {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2.5rem;
+}
+
+.contPara {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: large;
+  text-wrap: wrap;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img1 {
+  padding-bottom: 2rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chemicalEq {
+  color: rgb(62, 53, 101);
+}
